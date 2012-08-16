@@ -33,10 +33,10 @@
 #include <string.h>
 #include <unistd.h>
 
-#include <md5.h>
+#include <openssl/md5.h>
 //#include <rmd160.h>
-#include <sha.h>
-#include <hmac.h>
+#include <openssl/sha.h>
+#include <openssl/hmac.h>
 
 #include "hashtree.h"
 
